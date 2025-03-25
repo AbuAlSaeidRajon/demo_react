@@ -1,16 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import Box from "./Box";
 
-function App() {
-  const [count, setCount] = useState(0)
 
+const App = () => {
   return (
-    <>
-      
-    </>
-  )
-}
+  <div>
+    <header><h1>Rajon Al Saeid</h1></header>
+    <main>
+      <Box />
+      <Box />
+      <Box />
+    </main>
+    <footer>Copyrights @REACT25K</footer>
+  </div>
+  );
+};
 
-export default App
+
+export default App;
