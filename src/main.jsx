@@ -6,7 +6,7 @@ import App from './App.jsx'
 const name = "Rajon Al Saeid";
 const first_page = 2023;
 
-const Demo= () => {
+const Demo = () => {
   return (
     <div>
       <h1>Hello! My name is {name}</h1>
@@ -15,5 +15,6 @@ const Demo= () => {
   );
 };
 createRoot(document.getElementById('root')).render(
-  <StrictMode> {Demo} </StrictMode>,
+  <StrictMode> <Demo/>
+  </StrictMode>
 ) 
